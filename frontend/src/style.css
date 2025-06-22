@@ -1,0 +1,205 @@
+
+.nav-link {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-link:hover {
+    background-color: #198754; /* Darker shade for hover effect */
+    color: white;
+  }
+
+  footer {
+    font-size: 0.9rem; /* Slightly smaller font for footer */
+  }
+  .btn-primary, .router-link-active, .dropdown-item:hover, .bg-primary {
+    background-color: #198754 !important;
+}
+ .calendar-container {
+   width: 75%; /* Occupy 75% of the parent container */
+   height: 500px; /* Fixed height for the calendar */
+   margin: 0 auto; /* Center horizontally */
+ }
+
+
+.multiselect {
+  margin-bottom: 1rem;
+}
+.input-group {
+  gap: 0.5rem;
+}
+.wider-container {
+  max-width: 1920px; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+.allarga{
+  font-size: larger;
+}
+
+.not-found-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 100px);
+  padding: 2rem;
+  background-color: #f8f9fa;
+}
+
+.not-found-card {
+  background: white;
+  padding: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .not-found-card {
+    padding: 2rem;
+  }
+}
+
+
+.bg-tuple-auto{
+  background-color: rgba(122, 118, 82, 0) !important;
+  color: inherit !important;
+}
+.calendar-wrapper {
+  max-width: 1000px;
+  margin: auto;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Migliora visibilità eventi su Qalendar */
+.qalendar {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Migliora visibilità titoli evento */
+.qalendar .event-title {
+  font-weight: 600;
+  color: #1e1e1e;
+}
+
+/* Colori eventi con buon contrasto */
+.qalendar .event {
+  background-color: #009933 !important; /* colore principale */
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.3rem;
+}
+
+/* Focus per accessibilità tastiera */
+.qalendar .event:focus {
+  outline: 3px solid #005f25;
+  outline-offset: 2px;
+}
+
+/* Errori e messaggi */
+.error-message {
+  color: #842029;
+  background-color: #f8d7da;
+  padding: 0.75rem;
+  border-left: 5px solid #f5c2c7;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .calendar-wrapper {
+    padding: 0.5rem;
+  }
+
+  .qalendar {
+    font-size: 0.9rem;
+  }
+
+  .qalendar .event {
+    padding: 0.2rem;
+  }
+}
+.ritardo{
+  background-color: rgba(185, 0, 0, 0.288) !important;
+  color: inherit !important;
+  font-size: small;
+}
+.NotValidate{
+  background-color: rgba(251, 255, 0, 0.288) !important;
+  color: inherit !important;
+  font-size: small;
+
+}
+.overflow-auto{
+  max-height: calc(14 * 2.5rem + 1.5rem);
+}
+.form-check-input{
+  font-size: larger;
+}
+.chart-container {
+  height: 500px;
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.chart-container:hover {
+  transform: translateY(-5px);
+}
+
+.table-responsive-sm {
+  max-height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.table.table-sm td,
+.table.table-sm th {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  line-height: 1;
+  font-size: 0.96rem; 
+}
+
+/* login */
+.title-fade-enter-active {
+  transition: opacity 0.6s ease;
+  transition-delay: 0.4s; /* Appare con un leggero ritardo rispetto al card */
+}
+.title-fade-enter-from {
+  opacity: 0;
+}
+
+.card-fade-enter-active,
+.card-fade-leave-active {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.card-fade-enter-from,
+.card-fade-leave-to {
+  opacity: 0;
+  transform: translateY(20px); 
+}
+
+
+.alert-slide-fade-enter-active,
+.alert-slide-fade-leave-active {
+  transition: all 0.4s ease; 
+}
+
+.alert-slide-fade-enter-from,
+.alert-slide-fade-leave-to {
+  transform: translateY(-10px); 
+  opacity: 0;
+}
+
