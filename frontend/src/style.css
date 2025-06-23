@@ -4,20 +4,20 @@
   }
   
   .nav-link:hover {
-    background-color: #198754; /* Darker shade for hover effect */
+    background-color: #198754; 
     color: white;
   }
 
   footer {
-    font-size: 0.9rem; /* Slightly smaller font for footer */
+    font-size: 0.9rem; 
   }
   .btn-primary, .router-link-active, .dropdown-item:hover, .bg-primary {
     background-color: #198754 !important;
 }
  .calendar-container {
-   width: 75%; /* Occupy 75% of the parent container */
-   height: 500px; /* Fixed height for the calendar */
-   margin: 0 auto; /* Center horizontally */
+   width: 75%; 
+   height: 500px; 
+   margin: 0 auto; 
  }
 
 
@@ -91,7 +91,7 @@
 
 /* Colori eventi con buon contrasto */
 .qalendar .event {
-  background-color: #009933 !important; /* colore principale */
+  background-color: #009933 !important; 
   color: #ffffff;
   border: none;
   border-radius: 8px;
