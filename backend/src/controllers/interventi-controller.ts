@@ -56,7 +56,7 @@ export async function getInterventiEsterni(req: Request, res: Response) {
             `SELECT i.IntId
              FROM interventi i
              LEFT JOIN interventi_esterni ie ON i.IntId = ie.IntId
-             WHERE ie.IdFornitore IS NOT NULL and i.ValidataMan = '0'
+             WHERE ie.IdFornitore IS NOT NULL
              ORDER BY i.IntId DESC`
         );
         res.json(results);
